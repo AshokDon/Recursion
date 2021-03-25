@@ -8,6 +8,7 @@ int BinarySearch(int low,int high,int x,int arr[])
     {
         return -1;
     }
+    //to find mid 
     int mid=(low+high)>>1;
     if(arr[mid]==x)
     {
