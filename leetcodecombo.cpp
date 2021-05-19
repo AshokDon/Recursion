@@ -1,4 +1,6 @@
- void printcombinations(vector<int>&candidates,int target,vector<int>&ans,vector<vector<int>>&mainans,int ind)
+// https://leetcode.com/problems/combination-sum/ 
+
+void printcombinations(vector<int>&candidates,int target,vector<int>&ans,vector<vector<int>>&mainans,int ind)
     {
         if(ind==candidates.size())
         {
